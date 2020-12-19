@@ -36,7 +36,7 @@ timezone: Asia/Seoul
 author:
   type      : # "person" (default), "organization"
   name      : Dongwook Chang
-  url       :
+  url       : https://dongwook-chang.tistory.com/
   avatar    : https://avatars0.githubusercontent.com/u/29939301?s=400&u=fa14a1288e3e80d5a1bc3b786fca5e3b043f5a4f&v=4
   bio       : This is all you need to know about me.
   email     : dongwook.chan@gmail.com
