@@ -13,7 +13,7 @@ file_name="$today-$1"
 echo $file_name
 
 # create file
-file_dir="$PWD/$file_name.md"
+file_dir="$PWD/_posts/$file_name.md"
 if [ ! -f "$file_dir" ]; then
         echo "target file not found"
 else
