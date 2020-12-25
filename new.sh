@@ -39,3 +39,5 @@ else
         echo "failed to create target file"
         exit 1
 fi
+
+vi "$file_dir"
