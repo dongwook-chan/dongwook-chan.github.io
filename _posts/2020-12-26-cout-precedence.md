@@ -1,10 +1,10 @@
 ---
 title: cout precedence
 key: dong-cout-precedence
-tags: iostream cout precedence
+tags: iostream cout precedence BOJ-2753
 ---
 # problem
-The follwing code does not print as expected.
+The follwing code, a part of solution for [BOJ 2753](https://www.acmicpc.net/problem/2753) does not print as expected.
 ```c++
 cout << (!(year % 4) && (year % 100)) || !(year % 400);
 ```
