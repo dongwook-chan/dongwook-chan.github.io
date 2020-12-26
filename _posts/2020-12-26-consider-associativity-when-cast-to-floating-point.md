@@ -1,9 +1,10 @@
 ---
 title: consider associativity when cast to floating point
 key: dong-consider-associativity-when-cast-to-floating-point
-tags: associativity floating-point cast type
+tags: associativity floating-point cast type BOJ-4344
 ---
 # problem
+The codes below are parts of the solution for [BOJ 4344](https://www.acmicpc.net/problem/4344)
 'code 1' prints as inteded whereas 'code 2' does not.  
 ```c++
 // code 1
