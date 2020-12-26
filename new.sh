@@ -41,3 +41,5 @@ else
 fi
 
 vi "$file_dir"
+
+# add code to Git commit
