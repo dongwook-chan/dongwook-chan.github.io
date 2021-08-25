@@ -57,12 +57,12 @@ MySQL 8.0.15 이전에는 extra data 미사용으로 이슈 없었으나,
 MySQL 8.0.16 이후 partition table에 대해 파싱 이슈 발생  
 
 ## 세부 사항
-### 잘못된 extra data 코드
+### 기존 비표준 extra data 길이 계산
 출처: [python-mysql-replication 라이브러리 소스코드](https://github.com/noplay/python-mysql-replication/blob/3de6ff499f7695a800409341f4f859cac5b724d0/pymysqlreplication/row_event.py#L60)
 
         self.extra_data = self.packet.read(self.extra_data_length / 8) 
 
-### 표준 extra data 코드
+### 표준 extra data 길이 계산
 출처: [MySQL 공식 문서](https://dev.mysql.com/doc/internals/en/rows-event.html), [MySQL 서버 소스코드](https://github.com/mysql/mysql-server/blob/beb865a960b9a8a16cf999c323e46c5b0c67f21f/libbinlogevents/src/rows_event.cpp#L415)
 
         self.extra_data = self.packet.read(self.extra_data_length - 2)
