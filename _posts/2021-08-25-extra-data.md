@@ -67,4 +67,4 @@ MySQL 8.0.16 이후 partition table에 대해 파싱 이슈 발생
 
 ## 라이브러리 수정 후 PR
 
-        [Fix parsing of row events for MySQL8 partitioned table](https://github.com/noplay/python-mysql-replication/pull/355)
+[Fix parsing of row events for MySQL8 partitioned table](https://github.com/noplay/python-mysql-replication/pull/355)
