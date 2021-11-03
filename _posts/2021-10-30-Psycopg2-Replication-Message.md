@@ -1,7 +1,7 @@
 ---
 title: Psycopg2 Replication Message
 key: dong-Psycopg2-Replication-Message
-tags: 
+tags: Psycopg2, PostgreSQL, Replication, Python
 ---
 
 
